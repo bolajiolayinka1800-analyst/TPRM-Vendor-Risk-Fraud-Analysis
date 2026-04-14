@@ -4,7 +4,7 @@
 - TPRM_Project_Report.pdf/ Full project report
 - # Third-Party Risk Management (TPRM): Vendor Risk & Fraud Analysis
 
----
+
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ This project focuses on analyzing vendor risk and detecting potential fraud patt
 
 The goal is to ensure data quality, assess vendor risk exposure, and uncover suspicious activities that could impact business operations.
 
----
+
 
 ## Objectives
 
@@ -22,7 +22,7 @@ The goal is to ensure data quality, assess vendor risk exposure, and uncover sus
 - Detect fraud patterns and anomalies  
 - Build automated reporting using stored procedures  
 
----
+
 
 ## Dataset Description
 
@@ -33,7 +33,7 @@ The project uses two main tables:
 
 These tables are joined using `vendor_id`.
 
----
+
 
 ## Data Cleaning
 
@@ -45,7 +45,7 @@ Key data quality checks performed:
 - Standardized vendor categories  
 - Validated date consistency  
 
----
+
 
 ## Risk Analysis
 
@@ -58,7 +58,7 @@ Key data quality checks performed:
 
  **45% of vendors fall into high and critical risk categories**, indicating significant exposure.
 
----
+
 
 ### Weighted Risk Scoring
 
@@ -70,7 +70,7 @@ A composite risk model was created using:
 
 This helps prioritize vendors based on overall risk exposure.
 
----
+
 
 ### Key Risk Insights
 
@@ -78,7 +78,7 @@ This helps prioritize vendors based on overall risk exposure.
 - Certain vendor categories show lower cyber security performance  
 - Continuous monitoring is required for high risk vendors  
 
----
+
 
 ## Fraud Intelligence
 
@@ -90,13 +90,13 @@ This helps prioritize vendors based on overall risk exposure.
 - **0 risk vs incident mismatches**  
 - **11 vendors** showed round-number transaction patterns  
 
----
+
 
 ### Insight
 
 While data quality and classification appear consistent, the high number of vendors with large contract values suggests potential financial risk and the need for further audit controls.
 
----
+
 
 ## Stored Procedures
 
@@ -108,7 +108,7 @@ The project includes reusable SQL procedures for:
 
 These improve efficiency and enable dynamic reporting.
 
----
+
 
 ## Key Takeaways
 
@@ -117,7 +117,7 @@ These improve efficiency and enable dynamic reporting.
 - Fraud detection requires pattern based analysis  
 - SQL can be effectively used for risk automation and monitoring  
 
----
+
 
 ## Conclusion
 
@@ -125,7 +125,7 @@ This project demonstrates how SQL can be used to manage vendor risk, detect frau
 
 Organizations can leverage these insights to improve vendor governance, reduce exposure, and strengthen internal controls.
 
----
+
 
 ## Author
 
