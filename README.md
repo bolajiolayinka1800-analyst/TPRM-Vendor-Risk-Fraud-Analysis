@@ -4,14 +4,28 @@
 - TPRM_Project_Report.pdf/ Full project report
 - # Third-Party Risk Management (TPRM): Vendor Risk & Fraud Analysis
 
+---
 
+# TPRM Vendor Risk & Fraud Analysis
 
 ## Project Overview
-
-This project focuses on analyzing vendor risk and detecting potential fraud patterns within a Third-Party Risk Management (TPRM) framework using SQL.
+This project focuses on analyzing vendor risk and detecting potential fraud patterns within a Third Party Risk Management (TPRM) framework using SQL and Power BI.
 
 The goal is to ensure data quality, assess vendor risk exposure, and uncover suspicious activities that could impact business operations.
+## Tools Used
+- SQL (Data cleaning, stored procedures, analysis)
+- Power BI (Dashboards & visualization)
+- Excel (data validation)
 
+## Key Insights
+- High-risk vendors identified
+- Fraud patterns detected across categories
+- Risk scoring system built
+
+## Files
+- /sql → SQL scripts
+- /powerbi → dashboards
+- /screenshots → query results
 
 
 ## Objectives
@@ -22,7 +36,7 @@ The goal is to ensure data quality, assess vendor risk exposure, and uncover sus
 - Detect fraud patterns and anomalies  
 - Build automated reporting using stored procedures  
 
-
+ 
 
 ## Dataset Description
 
