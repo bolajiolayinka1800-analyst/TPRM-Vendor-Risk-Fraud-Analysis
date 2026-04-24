@@ -78,9 +78,9 @@ Key data quality checks performed:
 
 A composite risk model was created using:
 
-- Cyber Score → 50%  
-- Financial Score → 30%  
-- Compliance Score → 20%  
+- Cyber Score 50%  
+- Financial Score 30%  
+- Compliance Score 20%  
 
 This helps prioritize vendors based on overall risk exposure.
 
