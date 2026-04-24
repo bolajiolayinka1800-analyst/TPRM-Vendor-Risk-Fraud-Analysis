@@ -65,12 +65,12 @@ Key data quality checks performed:
 
 ### Risk Distribution
 
-- Low Risk: **28%**  
-- Medium Risk: **25%**  
+- Low Risk: **26%**  
+- Medium Risk: **26%**  
 - High Risk: **22%**  
-- Critical Risk: **25%**  
+- Critical Risk: **26%**  
 
- **45% of vendors fall into high and critical risk categories**, indicating significant exposure.
+ **48% of vendors fall into high and critical risk categories**, indicating significant exposure.
 
 
 
