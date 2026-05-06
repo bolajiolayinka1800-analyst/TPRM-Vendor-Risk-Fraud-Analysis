@@ -24,15 +24,15 @@ This project demonstrates how data can support risk, compliance, and fraud intel
 Project Structure
 tprm-vendor-risk-fraud-intelligence/
 │
-├── 01_Database_Setup.sql
-├── 02_Data_Cleaning.sql
-├── 03_Risk_Analysis_Reports.sql
-├── 04_Fraud_Intelligence.sql
-├── 05_Stored_Procedures.sql
+├── 01_Database_Setup.sql/
+├── 02_Data_Cleaning.sql/
+├── 03_Risk_Analysis_Reports.sql/
+├── 04_Fraud_Intelligence.sql/
+├── 05_Stored_Procedures.sql/
 │
-├── TPRM_Dashboard.pbix
-├── TPRM_Fintech_Report_Final.docx
-└── TPRM_Technical_Appendices.docx
+├── TPRM_Dashboard.pbix/
+├── TPRM_Fintech_Report_Final.docx/
+└── TPRM_Technical_Appendices.docx/
 Dashboard (Power BI)
 
 The dashboard provides a single-view executive summary of vendor risk exposure.
