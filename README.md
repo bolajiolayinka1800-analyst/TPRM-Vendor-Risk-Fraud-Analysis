@@ -21,6 +21,9 @@ Remediation tracking
 
 This project demonstrates how data can support risk, compliance, and fraud intelligence teams in financial institutions.
 
+## Project Structure
+
+```bash
 tprm-vendor-risk-fraud-intelligence/
 │
 ├── 01_Database_Setup.sql
@@ -30,10 +33,9 @@ tprm-vendor-risk-fraud-intelligence/
 ├── 05_Stored_Procedures.sql
 │
 ├── TPRM_Dashboard.pbix
-├── TPRM_Fintech_Report_Final.pdf
-└── TPRM_Technical_Appendices.pdf
-
-The dashboard provides a single-view executive summary of vendor risk exposure.
+├── TPRM_Fintech_Report_Final.docx
+└── TPRM_Technical_Appendices.docx
+```
 
 Key features:
 
