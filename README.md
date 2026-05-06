@@ -1,145 +1,49 @@
-## Project Structure
-- SQL/ SQL scripts for analysis  
-- screenshots/ Query results and outputs  
-- TPRM_Project_Report.pdf/ Full project report
-- # Third-Party Risk Management (TPRM): Vendor Risk & Fraud Analysis
-
----
-
-# TPRM Vendor Risk & Fraud Analysis
-
-## Project Overview
-This project focuses on analyzing vendor risk and detecting potential fraud patterns within a Third Party Risk Management (TPRM) framework using SQL and Power BI.
-
-The goal is to ensure data quality, assess vendor risk exposure, and uncover suspicious activities that could impact business operations.
-## Tools Used
-- SQL (Data cleaning, stored procedures, analysis)
-- Power BI (Dashboards & visualization)
-- Excel (data validation)
-
-## Key Insights
-- High-risk vendors identified
-- Fraud patterns detected across categories
-- Risk scoring system built
-
-## Files
-- /sql → SQL scripts
-- /powerbi → dashboards
-- /screenshots → query results
+TPRM: Vendor Risk Analysis & Fraud Intelligence System
+Applied to the Fintech & Digital Payments Industry
 
 
-## Objectives
+Why I Built This:
+Fintech companies depend heavily on external vendors — payment processors, KYC/KYB providers, cloud infrastructure, legal and compliance partners. Each of those relationships carries risk. I wanted to build something that reflects how risk teams at real payment companies actually think: not just flagging problems, but understanding why a vendor is risky, what type of fraud signal it's showing, and what to do about it.
+This project covers 1,000 simulated vendor records across five SQL modules and a Power BI executive dashboard. The regulatory references are drawn from real fintech practice — both Nigerian frameworks (CBN, FATF/GIABA, NDPA) and international standards (PCI-DSS, FCA, GDPR) making it applicable for roles in Nigeria and globally.
 
-- Perform data cleaning and validation  
-- Analyze vendor risk levels and distribution  
-- Develop a weighted risk scoring model  
-- Detect fraud patterns and anomalies  
-- Build automated reporting using stored procedures  
+What's Inside
+tprm-vendor-risk-fraud-intelligence/
+│
+├── 01_Database_Setup.sql           # Schema design, table creation, 1,000 vendor inserts
+├── 02_Data_Cleaning.sql            # Data quality checks and standardisation pipeline
+├── 03_Risk_Analysis_Reports.sql    # Risk scoring, industry analysis, remediation tracker
+├── 04_Fraud_Intelligence.sql       # Five fraud detection queries
+├── 05_Stored_Procedures.sql        # Automated reporting procedures
+│
+├── TPRM_Dashboard.pbix             # Power BI executive dashboard
+├── TPRM_Fintech_Report_Final.docx  # Main project report (8 sections)
+└── TPRM_Technical_Appendices.docx  # Full query documentation with fintech insights
 
- 
+The Dashboard
+Built in Power BI to give executives and risk teams a single-view summary of the full vendor portfolio. It includes a donut chart for risk distribution, bar charts for industry criticality and vendor tier classification, a horizontal bar chart for fraud anomaly counts, and cards for data quality and regulatory framework coverage.
+Every visual maps directly to a SQL query in the project making it straightforward to trace any dashboard number back to its source query and result set.
 
-## Dataset Description
+Modules
+01 — Database Setup
+Two-table schema: a vendor master registry with KYB fields (country, onboarding date, contract value, data access flag, incident count) and a vendor audit table storing periodic risk scores across cybersecurity, financial stability, and compliance dimensions.
+02 — Data Cleaning
+A six-step quality pipeline run before any analysis — checking referential integrity, score ranges, null fields, 47 duplicate entries, inconsistent category labels, and future-dated audit records. In a regulated fintech, any one of these is a compliance finding.
+03 — Risk Analysis
+Weighted risk scoring model combining cybersecurity (50%), financial (30%), and compliance (20%). Also includes an industry criticality analysis, audit freshness tracker, and a remediation tracker mapping each high-risk vendor to a specific corrective action.
+04 — Fraud Intelligence
+Five anomaly detection queries, each targeting a real fintech fraud typology:
 
-The project uses two main tables:
+High contract values → payment processor overbilling
+Missing country data → ghost vendor / AML bypass
+Same-date bulk onboarding → synthetic vendor network creation
+Low risk with high incidents → risk model gaming
+Round-number contracts → fictitious invoicing (Benford's Law)
 
-- **tprm_vendors** → Vendor information (name, category, contract value, country, etc.)  
-- **vendor_audit** → Risk metrics (cyber score, financial score, compliance score, audit date)  
-
-These tables are joined using `vendor_id`.
-
-
-
-## Data Cleaning
-
-Key data quality checks performed:
-
-- Identified missing and null values  
-- Detected invalid risk scores (outside 0–100 range)  
-- Checked for duplicate audit records  
-- Standardized vendor categories  
-- Validated date consistency  
-
-
-
-## Risk Analysis
-
-### Risk Distribution
-
-- Low Risk: **26%**  
-- Medium Risk: **26%**  
-- High Risk: **22%**  
-- Critical Risk: **26%**  
-
- **48% of vendors fall into high and critical risk categories**, indicating significant exposure.
-
-
-
-### Weighted Risk Scoring
-
-A composite risk model was created using:
-
-- Cyber Score 50%  
-- Financial Score 30%  
-- Compliance Score 20%  
-
-This helps prioritize vendors based on overall risk exposure.
-
-
-
-### Key Risk Insights
-
-- A large portion of vendors fall into medium to high risk categories  
-- Certain vendor categories show lower cyber security performance  
-- Continuous monitoring is required for high risk vendors  
-
-
-
-## Fraud Intelligence
-
-### Key Findings
-
-- **544 vendors** flagged with unusually high contract values  
-- **0 ghost vendors** (no missing country data)  
-- **1 onboarding anomaly** detected  
-- **0 risk vs incident mismatches**  
-- **11 vendors** showed round-number transaction patterns  
-
-
-
-### Insight
-
-While data quality and classification appear consistent, the high number of vendors with large contract values suggests potential financial risk and the need for further audit controls.
-
-
-
-## Stored Procedures
-
-The project includes reusable SQL procedures for:
-
-- Industry-based risk analysis  
-- Identifying top-performing vendors  
-- Generating compliance alerts  
-
-These improve efficiency and enable dynamic reporting.
-
-
-
-## Key Takeaways
-
-- Data cleaning is critical for reliable analysis  
-- Nearly half of vendors fall into high risk categories  
-- Fraud detection requires pattern based analysis  
-- SQL can be effectively used for risk automation and monitoring  
-
-
-
-## Conclusion
-
-This project demonstrates how SQL can be used to manage vendor risk, detect fraud patterns, and support business decision-making.
-
-Organizations can leverage these insights to improve vendor governance, reduce exposure, and strengthen internal controls.
-
-
+05 — Stored Procedures
+Three parameterised stored procedures for automated reporting — an industry risk filter, a top vendor identifier, and a weekly compliance alert system.
+sqlCALL Get_Industry_Risk_Report('Cloud Provider');
+CALL Get_Top_Vendors(80);
+CALL Get_Compliance_Alerts();
 
 ## Author
 
