@@ -95,7 +95,7 @@ High contract values → Payment processor overbilling
 Missing country data → Ghost vendor / AML bypass
 Bulk onboarding (same date) → Synthetic vendor networks
 Low risk with high incidents → Risk model manipulation
-Round-number contracts → Fictitious invoicing (Benford’s Law)
+Round number contracts → Fictitious invoicing (Benford’s Law)
 05 — Stored Procedures
 
 Automated reporting using parameterised procedures:
