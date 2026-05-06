@@ -21,19 +21,17 @@ Remediation tracking
 
 This project demonstrates how data can support risk, compliance, and fraud intelligence teams in financial institutions.
 
-Project Structure
 tprm-vendor-risk-fraud-intelligence/
 │
-├── 01_Database_Setup.sql/
-├── 02_Data_Cleaning.sql/
-├── 03_Risk_Analysis_Reports.sql/
-├── 04_Fraud_Intelligence.sql/
-├── 05_Stored_Procedures.sql/
+├── 01_Database_Setup.sql           # Schema design, table creation, 1,000 vendor inserts
+├── 02_Data_Cleaning.sql            # Data quality checks and standardisation pipeline
+├── 03_Risk_Analysis_Reports.sql    # Risk scoring, industry analysis, remediation tracker
+├── 04_Fraud_Intelligence.sql       # Five fraud detection queries
+├── 05_Stored_Procedures.sql        # Automated reporting procedures
 │
-├── TPRM_Dashboard.pbix/
-├── TPRM_Fintech_Report_Final.docx/
-└── TPRM_Technical_Appendices.docx/
-Dashboard (Power BI)
+├── TPRM_Dashboard.pbix             # Power BI executive dashboard
+├── TPRM_Fintech_Report_Final.docx  # Main project report (8 sections)
+└── TPRM_Technical_Appendices.docx  # Full query documentation with fintech insights
 
 The dashboard provides a single-view executive summary of vendor risk exposure.
 
