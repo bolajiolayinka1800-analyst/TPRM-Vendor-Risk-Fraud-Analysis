@@ -2,8 +2,8 @@ TPRM: Vendor Risk Analysis & Fraud Intelligence System
 Applied to the Fintech & Digital Payments Industry
 OVERVIEW
 
-Fintech companies rely heavily on third-party vendors — payment processors, KYC/KYB providers, cloud infrastructure, and compliance partners. Each relationship introduces risk.
-This project simulates how real-world risk teams operate: not just identifying risky vendors, but understanding why they are risky, detecting fraud signals, and recommending actionable responses.
+Fintech companies rely heavily on third-party vendors payment processors, KYC/KYB providers, cloud infrastructure, and compliance partners. Each relationship introduces risk.
+This project simulates how real world risk teams operate: not just identifying risky vendors, but understanding why they are risky, detecting fraud signals, and recommending actionable responses.
 The system is built on 1,000 simulated vendor records, combining SQL-based analytics with an executive Power BI dashboard.
 
 It aligns with both:
@@ -113,4 +113,4 @@ Regulatory awareness (fintech compliance)
 Author
 
 Bolaji Olalekan
-Data Analyst | SQL | Power BI | Risk & Fraud Analytics
+Data Analyst | SQL | Power BI | Risk & Fraud Analysis
