@@ -50,7 +50,7 @@ Regulatory coverage
 Every visual is directly linked to SQL queries, ensuring full traceability from dashboard to raw data.
 
 Project Modules
-## 01 — Database Setup
+## 01 Database Setup
 
 Two-table schema:
 
@@ -64,7 +64,7 @@ Onboarding date
 Contract value
 Data access flag
 Incident count
-## 02 — Data Cleaning
+## 02 Data Cleaning
 
 Six-step data quality pipeline:
 
@@ -74,7 +74,7 @@ Null handling
 Duplicate removal (47 records identified)
 Category standardisation
 Future-date validation
-## 03 — Risk Analysis
+## 03 Risk Analysis
 
 Weighted risk scoring model:
 
@@ -87,7 +87,7 @@ Includes:
 Industry risk analysis
 Audit freshness tracking
 Remediation mapping for high-risk vendors
-## 04 — Fraud Intelligence
+## 04 Fraud Intelligence
 
 Five fraud detection scenarios:
 
@@ -96,7 +96,7 @@ Missing country data → Ghost vendor / AML bypass
 Bulk onboarding (same date) → Synthetic vendor networks
 Low risk with high incidents → Risk model manipulation
 Round number contracts → Fictitious invoicing (Benford’s Law)
-## 05 — Stored Procedures
+## 05 Stored Procedures
 
 Automated reporting using parameterised procedures:
 
