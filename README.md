@@ -110,6 +110,24 @@ Risk modeling and scoring
 Fraud detection logic
 Power BI dashboard development
 Regulatory awareness (fintech compliance)
+
+## Power Bi Executive Dashboard
+
+An executive reporting dashboard was built in Power BI to give risk teams and stakeholders a single view summary of the full vendor portfolio. The dashboard covers portfolio risk distribution, vendor tier classification, industry criticality analysis using the actual query results, fraud anomaly detection counts, data quality check outcomes, and regulatory framework coverage split by Nigerian and global obligations.
+Every visual in the dashboard maps directly to a SQL query in the project, making it straightforward to trace any dashboard figure back to its source query and result set.
+
+## Regulatory Alignment 
+
+This framework maps to specific compliance obligations in both the Nigerian and global fintech regulatory environment:
+
+CBN Risk-Based Cybersecurity Framework 
+FATF / GIABA AML and KYB
+Nigeria Data Protection Act 2023 (NDPA)
+PCI-DSS
+FCA Operational Resilience
+GDPR
+
+
 Author
 
 Bolaji Olalekan
