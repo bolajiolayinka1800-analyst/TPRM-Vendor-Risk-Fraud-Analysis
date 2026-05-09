@@ -1,4 +1,4 @@
-TPRM: Vendor Risk Analysis & Fraud Intelligence System 
+## TPRM: Vendor Risk Analysis & Fraud Intelligence System 
 Applied to the Fintech & Digital Payments Industry (ONGOING)
 - OVERVIEW
 
