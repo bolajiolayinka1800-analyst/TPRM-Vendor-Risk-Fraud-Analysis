@@ -1,6 +1,6 @@
 TPRM: Vendor Risk Analysis & Fraud Intelligence System (ONGOING)
 Applied to the Fintech & Digital Payments Industry
-## OVERVIEW
+# OVERVIEW
 
 Fintech companies rely heavily on third-party vendors payment processors, KYC/KYB providers, cloud infrastructure, and compliance partners. Each relationship introduces risk. Each relationship introduces operational, cybersecurity, financial, and regulatory risk.
 This project simulates how real world risk teams operate: not just identifying risky vendors, but understanding why they are risky, detecting fraud signals, and recommending actionable responses.
