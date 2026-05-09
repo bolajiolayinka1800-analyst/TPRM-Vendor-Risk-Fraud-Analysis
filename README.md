@@ -1,6 +1,6 @@
-TPRM: Vendor Risk Analysis & Fraud Intelligence System
+TPRM: Vendor Risk Analysis & Fraud Intelligence System (ONGOING)
 Applied to the Fintech & Digital Payments Industry
-OVERVIEW
+## OVERVIEW
 
 Fintech companies rely heavily on third-party vendors payment processors, KYC/KYB providers, cloud infrastructure, and compliance partners. Each relationship introduces risk. Each relationship introduces operational, cybersecurity, financial, and regulatory risk.
 This project simulates how real world risk teams operate: not just identifying risky vendors, but understanding why they are risky, detecting fraud signals, and recommending actionable responses.
@@ -9,8 +9,8 @@ The project is built on 1,000 simulated vendor records, combining SQL-based anal
 It aligns with both:
 
 - Nigerian regulatory frameworks (CBN, FATF/GIABA, NDPA)
--Global standards (PCI-DSS, FCA, GDPR)
-Why I Built This:
+- Global standards (PCI-DSS, FCA, GDPR)
+## Why I Built This:
 
 I wanted to go beyond basic data analysis and build something that reflects real fintech risk operations:
 
@@ -20,6 +20,13 @@ I wanted to go beyond basic data analysis and build something that reflects real
 - Remediation tracking
 - automated SQL reporting procedures
 - Power BI dashboard for risk visibility
+
+## Tools & Technologies
+- SQL (MySQL)
+- Power BI
+- Data Cleaning & Validation
+- Risk Scoring Models
+- Fraud Detection Analytics
 
 This project demonstrates how data can support risk, compliance, and fraud intelligence teams in financial institutions.
 
@@ -54,7 +61,7 @@ Every visual is directly linked to SQL queries, ensuring full traceability from 
 Project Modules
 ## 01 Database Setup
 
-Two-table schema:
+Two table schema:
 
 TRPM vendor (KYB data)
 Vendor audit (risk scores)
@@ -130,12 +137,34 @@ An executive reporting dashboard was built in Power BI to give risk teams and st
 
 This framework maps to specific compliance obligations in both the Nigerian and global fintech regulatory environment:
 
-- CBN Risk-Based Cybersecurity Framework 
+- CBN Risk Based Cybersecurity Framework 
 - FATF / GIABA AML and KYB
 - Nigeria Data Protection Act 2023 (NDPA)
 - PCI-DSS
 - FCA Operational Resilience
 - GDPR
+
+
+## Challenges Encountered
+
+During the development of this project, several technical and analytical challenges were encountered:
+
+### 1. Data Quality Issues
+### 2. Risk Classification Inconsistencies
+### 3. SQL Stored Procedure Execution
+### 4. Data Integration Challenges
+### 6. Dashboard Visualization Challenges
+Some visuals, including the risk distribution chart, initially failed to display correctly due to field mapping and data model issues. Adjustments to relationships and field selections were required.
+
+## Lessons Learned
+
+These challenges strengthened understanding of:
+- Data cleaning and validation
+- SQL debugging and optimization
+- Stored procedures and automation
+- Power BI dashboard development
+- Risk analysis and fraud intelligence reporting
+- Translating technical analysis into business-focused insights
 
 
 Author
