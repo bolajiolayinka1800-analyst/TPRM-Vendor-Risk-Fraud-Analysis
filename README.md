@@ -149,11 +149,11 @@ This framework maps to specific compliance obligations in both the Nigerian and 
 
 During the development of this project, several technical and analytical challenges were encountered:
 
-### 1. Data Quality Issues
-### 2. Risk Classification Inconsistencies
-### 3. SQL Stored Procedure Execution
-### 4. Data Integration Challenges
-### 6. Dashboard Visualization Challenges
+##1. Data Quality Issues
+## 2. Risk Classification Inconsistencies
+## 3. SQL Stored Procedure Execution
+## 4. Data Integration Challenges
+## 6. Dashboard Visualization Challenges
 Some visuals, including the risk distribution chart, initially failed to display correctly due to field mapping and data model issues. Adjustments to relationships and field selections were required.
 
 ## Lessons Learned
