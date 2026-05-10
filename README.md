@@ -170,4 +170,4 @@ These challenges strengthened understanding of:
 Author
 
 Bolaji Olalekan
-Data Analyst | SQL | Power BI | Risk & Fraud Analysis
+- Risk Analyst | SQL | Power BI | Risk & Fraud Analysis
