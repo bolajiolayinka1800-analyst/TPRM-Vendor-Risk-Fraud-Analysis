@@ -12,14 +12,9 @@ It aligns with both:
 - Global standards (PCI-DSS, FCA, GDPR)
 ## Why I Built This:
 
-I wanted to go beyond basic data analysis and build something that reflects real fintech risk operations:
-
-- Vendor risk scoring
-- Fraud pattern detection
-- Compliance monitoring
-- Remediation tracking
-- automated SQL reporting procedures
-- Power BI dashboard for risk visibility
+Fintech companies today are only as strong as the vendors they trust. Payment processors, KYC providers, cloud hosts, legal partners are these third parties sit at the heart of how a fintech operates, and every single one of them introduces risk. The problem is that most organisations have no structured, data- driven way to manage that exposure. Vendor decisions get made on gut feel, compliance reviews happen reactively, and fraud signals go undetected until an audit uncovers them or money has already left the building.
+That is the problem this project was built to solve.
+Using MySQL and Power BI across a simulated portfolio of 1,000 vendor records, I built a full third party risk management system that covers everything from raw data quality through to automated compliance reporting and executive dashboards. The goal was not just to analyse data it was to produce something that actually changes how decisions get made.
 
 ## Tools & Technologies
 - SQL (MySQL)
