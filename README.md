@@ -1,5 +1,5 @@
 ## TPRM: Vendor Risk Analysis & Fraud Intelligence System 
-Applied to the Fintech & Digital Payments Industry (ONGOING)
+Applied to the Fintech & Digital Payments Industry
 - OVERVIEW
 
 Fintech companies rely heavily on third-party vendors payment processors, KYC/KYB providers, cloud infrastructure, and compliance partners. Each relationship introduces risk. Each relationship introduces operational, cybersecurity, financial, and regulatory risk.
@@ -12,13 +12,15 @@ It aligns with both:
 - Global standards (PCI-DSS, FCA, GDPR)
 ## Why I Built This:
 
-Fintech companies today are only as strong as the vendors they trust. Payment processors, KYC providers, cloud hosts, legal partners are these third parties sit at the heart of how a fintech operates, and every single one of them introduces risk. The problem is that most organisations have no structured, data- driven way to manage that exposure. Vendor decisions get made on gut feel, compliance reviews happen reactively, and fraud signals go undetected until an audit uncovers them or money has already left the building.
+Fintech companies today are only as strong as the vendors they trust. Payment processors, KYC providers, cloud hosts, legal partners these third parties sit at the heart of how a fintech operates, and every single one of them introduces risk. The problem is that most organisations have no structured, data-driven way to manage that exposure. Vendor decisions get made on gut feel, compliance reviews happen reactively, and fraud signals go undetected until an audit uncovers them or money has already left the building.
 That is the problem this project was built to solve.
-Using MySQL and Power BI across a simulated portfolio of 1,000 vendor records, I built a full third party risk management system that covers everything from raw data quality through to automated compliance reporting and executive dashboards. The goal was not just to analyse data it was to produce something that actually changes how decisions get made.
+When the numbers came back, the picture was stark. Nearly half the vendor portfolio 48.1% fell into the High or Critical risk tiers. Every single vendor category scored below the 60 points cybersecurity threshold meaning the exposure was not isolated to one area. On the fraud side, 544 vendors were flagged for unusually high contract values, 9 showed round number invoice patterns consistent with fictitious billing, and one onboarding date had 6 vendors registered simultaneously a known signal for synthetic vendor network creation.
+Beyond the findings, what makes this project meaningful is what it enables. Procurement teams get an objective basis for contract decisions. Finance teams get early fraud detection before money leaves the organisation. Leadership gets a clear answer on whether third-party exposure sits within the organisation's risk appetite. And the compliance team gets automated alerts and audit ready documentation so when a regulator comes knocking, the evidence is already there.
 
 ## Tools & Technologies
 - SQL (MySQL)
 - Power BI
+- Excel (for data validation)
 - Data Cleaning & Validation
 - Risk Scoring Models
 - Fraud Detection Analytics
@@ -119,14 +121,11 @@ Regulatory awareness (fintech compliance)
 
 ## Power Bi Dashboard
 
-An executive reporting dashboard was built in Power BI to give risk teams and stakeholders a single view summary of the full vendor portfolio.
-
-- Vendor risk distribution
-- Industry exposure
-- Vendor tier classification
-- Fraud anomaly counts
-- Compliance coverage
-- Data quality metrics
+The Power BI dashboard covers two pages:
+Page 1: Executive Overview
+Portfolio risk distribution, vendor tier classification, average cybersecurity scores by category, fraud anomaly detection summary, and four KPI cards covering compliance alerts, High and Critical exposure, low risk vendors, and total fraud cases. Includes three dropdown slicers — Risk Status, Category, and Vendor Tier — that filter all visuals simultaneously.
+Page 2: Findings and Recommendations
+Key findings with priority badges, recommendations with timeline badges, and full regulatory framework alignment across CBN, FATF/GIABA, NDPA 2023, PCI-DSS, FCA Operational Resilience, and GDPR.
 
 ## Regulatory Alignment 
 
@@ -165,4 +164,4 @@ These challenges strengthened understanding of:
 Author
 
 Bolaji Olalekan
-- Risk Analyst | SQL | Power BI | Risk & Fraud Analysis
+- Data & Risk Analyst | TPRM | GRC | Fraud Intelligence | SQL | Power BI | Fintech Compliance
