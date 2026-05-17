@@ -120,10 +120,21 @@ Regulatory awareness (fintech compliance)
 
 
 ## Power Bi Dashboard
+## Dashboard Preview
+
+### Page 1 — Executive Overview
+![Dashboard Page 1](dashboard_page1.png)
+
+### Page 2 — Findings & Recommendations
+![Dashboard Page 2](dashboard_page2.png)
+
+The full interactive dashboard is available as:
+- `TPRM_Dashboard.pbix` — open in Power BI Desktop for full interactivity
+- `TPRM_Dashboard.pdf` — static preview, no Power BI required
 
 The Power BI dashboard covers two pages:
 Page 1: Executive Overview
-Portfolio risk distribution, vendor tier classification, average cybersecurity scores by category, fraud anomaly detection summary, and four KPI cards covering compliance alerts, High and Critical exposure, low risk vendors, and total fraud cases. Includes three dropdown slicers — Risk Status, Category, and Vendor Tier — that filter all visuals simultaneously.
+Portfolio risk distribution, vendor tier classification, average cybersecurity scores by category, fraud anomaly detection summary, and four KPI cards covering compliance alerts, High and Critical exposure, low risk vendors, and total fraud cases. Includes three dropdown slicers which are Risk Status, Category, Risk level and Vendor Tier that filter all visuals simultaneously.
 Page 2: Findings and Recommendations
 Key findings with priority badges, recommendations with timeline badges, and full regulatory framework alignment across CBN, FATF/GIABA, NDPA 2023, PCI-DSS, FCA Operational Resilience, and GDPR.
 
