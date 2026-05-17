@@ -14,7 +14,7 @@ It aligns with both:
 
 Fintech companies today are only as strong as the vendors they trust. Payment processors, KYC providers, cloud hosts, legal partners these third parties sit at the heart of how a fintech operates, and every single one of them introduces risk. The problem is that most organisations have no structured, data driven way to manage that exposure. Vendor decisions get made on gut feel, compliance reviews happen reactively, and fraud signals go undetected until an audit uncovers them or money has already left the building.
 That is the problem this project was built to solve.
-When the numbers came back, the picture was stark. Nearly half the vendor portfolio 48.1% fell into the High or Critical risk tiers. Every single vendor category scored below the 60 points cybersecurity threshold meaning the exposure was not isolated to one area. On the fraud side, 544 vendors were flagged for unusually high contract values, 9 showed round number invoice patterns consistent with fictitious billing, and one onboarding date had 6 vendors registered simultaneously a known signal for synthetic vendor network creation.
+Nearly half the vendor portfolio 48.1% fell into the High or Critical risk tiers. Every single vendor category scored below the 60 points cybersecurity threshold meaning the exposure was not isolated to one area. On the fraud side, 544 vendors were flagged for unusually high contract values, 9 showed round number invoice patterns consistent with fictitious billing, and one onboarding date had 6 vendors registered simultaneously a known signal for synthetic vendor network creation.
 Beyond the findings, what makes this project meaningful is what it enables. Procurement teams get an objective basis for contract decisions. Finance teams get early fraud detection before money leaves the organisation. Leadership gets a clear answer on whether third-party exposure sits within the organisation's risk appetite. And the compliance team gets automated alerts and audit ready documentation so when a regulator comes knocking, the evidence is already there.
 
 ## Tools & Technologies
@@ -123,10 +123,10 @@ Regulatory awareness (fintech compliance)
 ## Dashboard Preview
 
 ### Page 1 — Executive Overview
-![Dashboard Page 1](dashboard_page1.png)
+Dashboard Page 1.png
 
 ### Page 2 — Findings & Recommendations
-![Dashboard Page 2](dashboard_page2.png)
+Dashboard page 2.png
 
 The full interactive dashboard is available as:
 - `TPRM_Dashboard.pbix` — open in Power BI Desktop for full interactivity
